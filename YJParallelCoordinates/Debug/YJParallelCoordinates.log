@@ -1,0 +1,139 @@
+﻿  graph.cpp
+  main.cpp
+  MyDataSet.cpp
+  OGLWidget.cpp
+  tsne.cpp
+  YJParallelCoordinates.cpp
+c:\users\kyj87\desktop\research\code\yjparallelcoordinates\yjparallelcoordinates\oglwidget.cpp(5): warning C4005: 'M_PI': macro redefinition
+  c:\qt\5.13.1\msvc2017\include\qtcore\qmath.h(175): note: see previous definition of 'M_PI' (compiling source file OGLWidget.cpp)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(236): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(359): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(358): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(1036): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,double,double,double,0>(_Tag,_This2 &&,double &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,double,double,double,0>(_Tag,_This2 &&,double &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(374): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<double,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(372): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<double,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(517): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<double,double,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file tsne.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(516): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<double,double,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file tsne.cpp)
+  c:\users\kyj87\desktop\research\code\yjparallelcoordinates\yjparallelcoordinates\mydataset.h(387): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<double,double,double,0>(std::tuple<double,double,double> &&) noexcept' being compiled (compiling source file tsne.cpp)
+  c:\users\kyj87\desktop\research\code\yjparallelcoordinates\yjparallelcoordinates\mydataset.h(387): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<double,double,double,0>(std::tuple<double,double,double> &&) noexcept' being compiled (compiling source file tsne.cpp)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(236): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(359): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(358): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(1036): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,double,double,double,0>(_Tag,_This2 &&,double &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(1035): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,double,double,double,0>(_Tag,_This2 &&,double &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(374): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<double,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(372): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<double,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(517): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<double,double,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file graph.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\tuple(516): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<double,double,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<double,double,double>
+          ] (compiling source file graph.cpp)
+  c:\users\kyj87\desktop\research\code\yjparallelcoordinates\yjparallelcoordinates\mydataset.h(387): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<double,double,double,0>(std::tuple<double,double,double> &&) noexcept' being compiled (compiling source file graph.cpp)
+  c:\users\kyj87\desktop\research\code\yjparallelcoordinates\yjparallelcoordinates\mydataset.h(387): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<double,double,double,0>(std::tuple<double,double,double> &&) noexcept' being compiled (compiling source file graph.cpp)
+  qrc_YJParallelCoordinates.cpp
+  moc_YJParallelCoordinates.cpp
+  moc_CustomUI.cpp
+  moc_OGLWidget.cpp
+  YJParallelCoordinates.vcxproj -> C:\Users\kyj87\Desktop\research\CODE\YJParallelCoordinates\Win32\Debug\YJParallelCoordinates.exe
